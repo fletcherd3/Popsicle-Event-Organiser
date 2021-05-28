@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const SERVER_URL = 'http://localhost:4941/api/v1';
+export const SERVER_URL = '/api/v1';
 
 const instance = axios.create({
     baseURL: SERVER_URL,
